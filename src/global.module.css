@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #ccc;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+}
+
+.calculos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    margin-right: 8px;
+    padding: 16px 32px;
+    background-color: #ccc;
+    color: black;
+    border: #000 solid 2px;
+}
+
+button {
+    background-color: #ccc;
+    color: #000;
+    border: 2px solid #000;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #918e8e;
+}
+
+p {
+    font-size: 32px;
+    margin-left: 12px;
+}
+
